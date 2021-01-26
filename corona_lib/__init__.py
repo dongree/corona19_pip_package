@@ -1,3 +1,3 @@
-from .todayCorona import *
-from .totalCorona import *
 from .regionalCorona import *
+from .totalCorona import *
+from .todayCorona import *
