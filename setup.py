@@ -13,10 +13,5 @@ setup(name='corona_lib',
           "beautifulsoup4 == 4.9.3",
           "bs4 == 0.0.1",
           "requests == 2.25.1"
-      ],
-      entry_points={
-          'console_scripts': ['corona_lib-regionalCorona = corona_lib.regionalCorona:regionalCorona'],
-          ['corona_lib-todayCorona = corona_lib.todayCorona:todayCorona'],
-          ['corona_lib-totalCorona = corona_lib.totalCorona:corona_case'],
-      }
+      ]
       )
