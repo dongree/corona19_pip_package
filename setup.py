@@ -10,6 +10,8 @@ setup(name='corona_lib',
       packages=['corona_lib'],
       zip_safe=False,
       install_requires=[
-
+          "beautifulsoup == 4.9.3",
+          "bs4 == 0.0.1",
+          "requests == 2.25.1"
       ]
       )
